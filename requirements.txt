@@ -1,0 +1,3 @@
+# This project has no Python dependencies.
+# Runtime: Node.js 18+ (local static server) and a modern browser.
+# MediaPipe Tasks Vision is loaded by the browser from jsDelivr at runtime.
