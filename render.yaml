@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: signa-hand-gesture-studio
+    runtime: static
+    repo: https://github.com/darshilnagle7-create/signa-hand-gesture-studio
+    branch: main
+    buildCommand: "echo 'Static site has no build step'"
+    staticPublishPath: .
+    autoDeployTrigger: commit
